@@ -1,5 +1,5 @@
 def greet_characters(array)
-  array.each do 
+  array.each do |eleament|
   puts "Hello #{array[count]}!\n"
    count += 1
  end 
