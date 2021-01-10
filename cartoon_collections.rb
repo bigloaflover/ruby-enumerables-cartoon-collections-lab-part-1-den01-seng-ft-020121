@@ -5,9 +5,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  count = 0 
-  while count < array.length do 
+    array.each do |element, index|
     puts "#{count + 1}. #{array[count]}"
-    count += 1 
   end 
 end
