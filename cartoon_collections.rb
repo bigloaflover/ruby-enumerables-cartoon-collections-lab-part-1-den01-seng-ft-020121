@@ -1,6 +1,5 @@
 def greet_characters(array)
- count = 0
- while count < array.length do 
+ while count < array.each do 
   puts "Hello #{array[count]}!\n"
    count += 1
  end 
